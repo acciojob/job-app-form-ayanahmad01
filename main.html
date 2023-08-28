@@ -7,6 +7,42 @@
 </head>
 
 <body>
+	<form action="#" method="post">
+		<label for="name">Name*</label><br>
+		<input id="name" type="text" required name="Name" placeholder="Enter your name!" /><br><br>
+
+		<label for="email">Email*</label><br>
+		<input id="email" type="email" required name="Email" placeholder="Enter your Email-ID!" /><br><br>
+
+		<label>Gender*</label><br>
+		<input id="male" type="radio" required name="gender"/>
+		<label for="male">Male</label>
+		<input id="female" type="radio" required name="gender"/>
+		<label for="female">Female</label><br><br>
+
+		<label for="laptop">Laptop Brand</label><br>
+		<select id="laptop" name="Laptop Brand">
+			<option value="">--Please choose an option--</option>
+			<option value="apple">Apple</option>
+			<option value="asus">Asus</option>
+			<option value="hp">HP</option>
+		</select><br><br>
+
+		<label for="age">Age*</label><br>
+		<input id="age" type="number" required name="Age" placeholder="Enter your age!" /><br><br>
+
+		<label for="dob">D.O.B.*</label><br>
+		<input id="dob" type="date" required name="DOB" /><br><br>
+
+		<label for="password">Password*</label><br>
+		<input id="password" type="password" required name="Password" placeholder="Enter your Password!" /><br><br>
+
+		<label for="portfolio">Portfolio URL</label><br>
+		<input id="portfolio" type="url" required name="Portfolio" placeholder="Enter your portfolio URL!" /><br><br>
+
+		<button type="submit">Submit</button>
+		
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
